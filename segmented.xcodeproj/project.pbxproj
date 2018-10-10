@@ -14,6 +14,8 @@
 		3D85DBE4216D7A2500A0D656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D85DBE2216D7A2500A0D656 /* LaunchScreen.storyboard */; };
 		3D85DBEF216D7A2500A0D656 /* segmentedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85DBEE216D7A2500A0D656 /* segmentedTests.swift */; };
 		3D85DBFA216D7A2500A0D656 /* segmentedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85DBF9216D7A2500A0D656 /* segmentedUITests.swift */; };
+		3D85DC08216D882400A0D656 /* CeldaAprobadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85DC07216D882400A0D656 /* CeldaAprobadoController.swift */; };
+		3D85DC0A216D884A00A0D656 /* CeldaReprobadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85DC09216D884A00A0D656 /* CeldaReprobadoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D85DBF5216D7A2500A0D656 /* segmentedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D85DBF9216D7A2500A0D656 /* segmentedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentedUITests.swift; sourceTree = "<group>"; };
 		3D85DBFB216D7A2500A0D656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D85DC07216D882400A0D656 /* CeldaAprobadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAprobadoController.swift; sourceTree = "<group>"; };
+		3D85DC09216D884A00A0D656 /* CeldaReprobadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaReprobadoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3D85DBE0216D7A2500A0D656 /* Assets.xcassets */,
 				3D85DBE2216D7A2500A0D656 /* LaunchScreen.storyboard */,
 				3D85DBE5216D7A2500A0D656 /* Info.plist */,
+				3D85DC07216D882400A0D656 /* CeldaAprobadoController.swift */,
+				3D85DC09216D884A00A0D656 /* CeldaReprobadoController.swift */,
 			);
 			path = segmented;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D85DC0A216D884A00A0D656 /* CeldaReprobadoController.swift in Sources */,
+				3D85DC08216D882400A0D656 /* CeldaAprobadoController.swift in Sources */,
 				3D85DBDC216D7A2300A0D656 /* ViewController.swift in Sources */,
 				3D85DBDA216D7A2300A0D656 /* AppDelegate.swift in Sources */,
 			);
